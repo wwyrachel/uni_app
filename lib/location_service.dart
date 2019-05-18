@@ -21,12 +21,12 @@ class LocationService {
 
 
   final String detailUrl =
-      "https://maps.googleapis.com/maps/api/place/details/json?key=AIzaSyBPVP31QN5tDhXKE2UKREbKw0L-CxhEhI4&placeid=";
+      "https://maps.googleapis.com/maps/api/place/details/json?key=*api key*";
 
   Future<List<PlaceDetail>> getNearbyPlaces() async {
 
     final String url =
-      "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${polyu_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=AIzaSyBPVP31QN5tDhXKE2UKREbKw0L-CxhEhI4";
+      "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${polyu_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=*api key*";
 
   var reponse = await http.get(url, headers: {"Accept": "application/json"});
 
@@ -41,7 +41,7 @@ class LocationService {
   Future<List<PlaceDetail>> getNearbyPlaces_cu() async {
 
     final String url =
-        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${cu_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=AIzaSyBPVP31QN5tDhXKE2UKREbKw0L-CxhEhI4";
+        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${cu_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=*api key*";
 
     var reponse = await http.get(url, headers: {"Accept": "application/json"});
 
@@ -56,7 +56,7 @@ class LocationService {
   Future<List<PlaceDetail>> getNearbyPlaces_hku() async {
 
     final String url =
-        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${hku_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=AIzaSyBPVP31QN5tDhXKE2UKREbKw0L-CxhEhI4";
+        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${hku_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=*api key*";
 
     var reponse = await http.get(url, headers: {"Accept": "application/json"});
 
@@ -71,7 +71,7 @@ class LocationService {
   Future<List<PlaceDetail>> getNearbyPlaces_hkust() async {
 
     final String url =
-        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${hkust_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=AIzaSyBPVP31QN5tDhXKE2UKREbKw0L-CxhEhI4";
+        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${hkust_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=*api key*";
 
     var reponse = await http.get(url, headers: {"Accept": "application/json"});
 
@@ -86,7 +86,7 @@ class LocationService {
   Future<List<PlaceDetail>> getNearbyPlaces_bu() async {
 
     final String url =
-        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${bu_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=AIzaSyBPVP31QN5tDhXKE2UKREbKw0L-CxhEhI4";
+        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${bu_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=*api key*";
 
     var reponse = await http.get(url, headers: {"Accept": "application/json"});
 
@@ -101,7 +101,7 @@ class LocationService {
   Future<List<PlaceDetail>> getNearbyPlaces_syu() async {
 
     final String url =
-        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${syu_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=AIzaSyBPVP31QN5tDhXKE2UKREbKw0L-CxhEhI4";
+        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${syu_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=*api key*";
 
     var reponse = await http.get(url, headers: {"Accept": "application/json"});
 
@@ -116,7 +116,7 @@ class LocationService {
   Future<List<PlaceDetail>> getNearbyPlaces_lingu() async {
 
     final String url =
-        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lingu_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=AIzaSyBPVP31QN5tDhXKE2UKREbKw0L-CxhEhI4";
+        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lingu_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=*api key*";
 
     var reponse = await http.get(url, headers: {"Accept": "application/json"});
 
@@ -131,7 +131,7 @@ class LocationService {
   Future<List<PlaceDetail>> getNearbyPlaces_ou() async {
 
     final String url =
-        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${ou_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=AIzaSyBPVP31QN5tDhXKE2UKREbKw0L-CxhEhI4";
+        "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${ou_gps}&radius=1500&type=cafe&region=%22HK%22&Rankby=prominence&key=*api key*";
 
     var reponse = await http.get(url, headers: {"Accept": "application/json"});
 
