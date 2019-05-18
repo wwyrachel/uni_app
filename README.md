@@ -9,6 +9,10 @@ This app provides the information of university events, food, news, posts, jobs,
 ## Main Screen
 ![](screenshots/main.png)
 ![](screenshots/login1.png)
+![](screenshots/home_user1.png)
+![](screenshots/explore.png)
+![](screenshots/message_user.png)
+
 
 ## Event Screen
 ![](screenshots/event_user1.png)
