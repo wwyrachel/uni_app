@@ -5,3 +5,5 @@ An app designed to help students in Hong Kong university student to accommodate 
 ## Introduction
 
 This app provides the information of university events, food, news, posts, jobs, useful links.
+
+![](screenshots/main.png)
