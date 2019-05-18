@@ -6,7 +6,7 @@ import 'dart:convert';
 import 'news_detail_page.dart';
 
 Future<List<Source>> FetchNewsSource() async{
-  final response = await http.get("https://newsapi.org/v2/sources?language=en&apiKey=ed320ea5b52a42a29dfe568783b12202&sortBy=popularity");
+  final response = await http.get("https://newsapi.org/v2/sources?language=en&apiKey=*api key*&sortBy=popularity");
 
   if (response.statusCode == 200){
 
