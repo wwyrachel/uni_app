@@ -7,7 +7,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 Future<List<Article>> FetchArticleSource(String source) async{
   //final response = await http.get("https://newsapi.org/v2/top-headlines?sources=${source}&apiKey=ed320ea5b52a42a29dfe568783b12202");
-  final response = await http.get("https://newsapi.org/v2/everything?sources=${source}&q=university%20OR%20music%20OR%20sports%20OR%20technology&apiKey=ed320ea5b52a42a29dfe568783b12202");
+  final response = await http.get("https://newsapi.org/v2/everything?sources=${source}&q=university%20OR%20music%20OR%20sports%20OR%20technology&apiKey=*your api key*");
 
   if (response.statusCode == 200){
 
